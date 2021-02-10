@@ -1,0 +1,16 @@
+PODS:
+  - YUKAssociatedTypeRequirement (0.1.0)
+
+DEPENDENCIES:
+  - YUKAssociatedTypeRequirement (from `../`)
+
+EXTERNAL SOURCES:
+  YUKAssociatedTypeRequirement:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YUKAssociatedTypeRequirement: 0de1b49e033d15ea455b13c30ecb28d7797d6041
+
+PODFILE CHECKSUM: 7ee33a57962b5c718cb0163fcbf65a32e1bd060f
+
+COCOAPODS: 1.10.1
