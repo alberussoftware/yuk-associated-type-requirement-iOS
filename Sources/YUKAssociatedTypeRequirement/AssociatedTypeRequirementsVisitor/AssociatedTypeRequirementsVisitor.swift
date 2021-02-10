@@ -5,6 +5,8 @@
 //  Created by Ruslan Lutfullin on 2/9/21.
 //
 
+import CContext
+
 // MARK: -
 public protocol AssociatedTypeRequirementsVisitor {
   associatedtype Visitor
