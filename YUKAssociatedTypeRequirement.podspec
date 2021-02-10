@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.social_media_url      = 'https://twitter.com/jeudesprits'
   s.ios.deployment_target = '13.0'
   s.swift_version         = '5.3'
-  s.source_files          = 'Sources/YUKAssociatedTypeRequirement/*.{h,swift}'
+  s.source_files          = 'Sources/**/*.{h,swift}'
   s.xcconfig              = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_TARGET_SRCROOT)/Sources/YUKAssociatedTypeRequirement/CContext/include' }
   s.preserve_path         = 'Sources/YUKAssociatedTypeRequirement/CContext/include/module.modulemap'
 end
