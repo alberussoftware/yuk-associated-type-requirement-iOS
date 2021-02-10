@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'YUKAssociatedTypeRequirement'
-  s.version               = '1.0.0'
+  s.version               = '1.1.1'
   s.summary               = 'Helper to break restrictions of protocols with associated types (PATs) for iOS'
   s.homepage              = 'https://github.com/alberussoftware/yuk-associated-type-requirement-iOS'
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
