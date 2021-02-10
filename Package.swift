@@ -14,7 +14,9 @@ let package = Package(
   ],
   dependencies: [ ],
   targets: [
-    .target(name: "YUKAssociatedTypeRequirement", dependencies: [ ]),
+    .target(name: "CContext", path: "Sources/YUKAssociatedTypeRequirement/CContext"),
+    .target(name: "YUKAssociatedTypeRequirement", dependencies: ["CContext"], exclude: ["CContext"]),
     .testTarget(name: "YUKAssociatedTypeRequirementTests", dependencies: ["YUKAssociatedTypeRequirement"]),
-  ]
+  ],
+  cLanguageStandard: .gnu11
 )

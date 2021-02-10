@@ -1,0 +1,4 @@
+module CContext {
+    umbrella "/Users/jeudesprits/Developer/yuk-associated-type-requirement-iOS/Sources/YUKAssociatedTypeRequirement/CContext/include"
+    export *
+}
